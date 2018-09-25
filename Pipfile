@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cython = "*"
+"word2vec" = "*"
+gensim = "*"
+tensorflow = "*"
+"mecab-python3" = "*"
+flask = "*"
+gunicorn = "*"
+python-dotenv = "*"
+requests = "*"
+urlextract = "*"
+scikit-learn = "*"
+numpy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
